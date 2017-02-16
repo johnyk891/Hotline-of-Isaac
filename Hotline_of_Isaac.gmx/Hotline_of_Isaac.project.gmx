@@ -5,9 +5,20 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_player_1</sprite>
+    <sprite>sprites\spr_player_2</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_player_1</object>
+    <object>objects\obj_player_2</object>
+    <object>objects\obj_camera</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_map</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
